@@ -28,7 +28,8 @@ var BusterHelpers = module.exports = {
       {
         logging:  options.logging,
         dialect:  options.dialect,
-        port:     config[options.dialect].port
+        port:     config[options.dialect].port,
+        pool:     config[options.dialect].pool
       }
     )
   },
